@@ -10,6 +10,9 @@ const Nav = () => {
       <Link href="/bio" passHref>
         <p className="ms-5 pointer lead my-auto">Bio</p>
       </Link>
+      <Link href="/einar" passHref>
+        <p className="ms-5 pointer lead my-auto">/einar</p>
+      </Link>
     </nav>
   )
 }
