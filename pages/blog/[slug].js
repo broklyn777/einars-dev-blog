@@ -7,19 +7,22 @@ import SyntaxHighlighter from 'react-syntax-highlighter'
 
 import { Nav, Button } from '../../components'
 
+
+
+
 const components = { Nav, Button, SyntaxHighlighter }
 
 const PostPage = ({ frontMatter: { title, date }, mdxSource }) => {
   return (
-    <div className="mt-4">
 
 
+    <div className="mt-4 ">
       <div className="prose">
         <h1>{title}</h1>
-
         <MDXRemote {...mdxSource} components={components} />
       </div>
     </div>
+
   )
 }
 

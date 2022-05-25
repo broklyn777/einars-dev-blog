@@ -1,5 +1,5 @@
 ---
-title: How to use Reduce in JavaScript
+title: Next js code
 date: "2020-05-09"
 description: The reduce function of an array is one of the most versatile functions in JavaScript.
 thumbnailUrl: "/image/reduce.jpg"
@@ -24,8 +24,10 @@ const PostPage = ({ frontMatter: { title, date }, mdxSource }) => {
     <SectionContainer>
 
       <div className="mt-4 ">
-        <PageTitle>{title}</PageTitle>
-        <MDXRemote {...mdxSource} components={components} />
+         <div className="prose">
+        <h1>{title}</h1>
+           <MDXRemote {...mdxSource} components={components} />
+         </div>
       </div>
     </SectionContainer>
 
