@@ -10,7 +10,7 @@ export default function einar({ posts }) {
             {posts.map((post, index) => (
                 <Link href={'/blog/' + post.slug} passHref key={index}>
                     <div className="  bg-clip-border  rounded-md relative px-3 md:px-0 flex flex-col min-w-0 mb-3 cursor-pointer break-words  max-w-[540px]" >
-                        <div className="gap-y-4 flex w-full pl-3  bg-white rounded-lg shadow-md mt-6">
+                        <div className="gap-y-4 flex w-full pl-3   bg-white rounded-lg shadow-md mt-6">
                             <div className="flex w-4/6 ">
                                 <div className="grow shrink basis-auto p-4">
                                     <h5 className="text-xl text-[#212529] font-medium mb-2">{post.frontMatter.title}</h5>

@@ -5,7 +5,7 @@ const Nav = () => {
     <nav className=" flex flex1  border-b flex-wrap justify-between cursor-pointer p-3 py-8 space-x-5 ">
       
       <Link href="/" passHref>
-        <h2 className="text-3xl cursor-pointer">funny games</h2>
+        <h2 className="text-3xl cursor-pointer">media3D</h2>
       </Link>
 <div className='flex space-x-4 text-lg'>
       <Link href="/bio" passHref>

@@ -1,17 +1,15 @@
 ---
-title: Functions for Beginners
-date: "2019-10-11"
-description: Learn how to create and use functions
-thumbnailUrl: "/javascript-functions-thumbnail.jpeg"
-tags: ["functions", "javascript"]
+title: Next js code
+date: ""2019-10-11""
+description: "Here's an introduction to SolidJS"
+thumbnailUrl: "/image/fr-seraphim.jpg"
+tags: ["JavaScript", "solidjs"]
 ---
 
 <div>
-  This is a blog post about <strong>functions</strong>. <br />
-  We'll learn what functions are, how to write functions, and how to use them.
+  This is a blog post about <strong>SolidJS</strong>. <br />
+  We'll learn about SolidJS and how to build with it.
 </div>
-
-![ocean](/javascript-functions-thumbnail.jpeg)
 
 <br />
 
@@ -21,24 +19,25 @@ We just used a `###` subheading in our blog post.
 
 <SyntaxHighlighter language="javascript">
   {`
-    const doStuff = () => {
-      return console.log('hey')
-    }
-  `}
+    .container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.frame {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+`}
+
 </SyntaxHighlighter>
-
-```
-  // this is a code block
-  const doSomething = () => {
-    return console.log('hey')
-  }
-```
-
-<div>
-  Here, I'm using a component inside my MarkDown file:{" "}
-  {<Button text={"Click me"} />}
-</div>
-
 <SyntaxHighlighter language="javascript">
   {`
     .container {
@@ -62,6 +61,18 @@ border: 0;
 </SyntaxHighlighter>
 
 ```
+  // this is a code block
+  const doSomething = () => {
+    return console.log('hey')
+  }
+```
+
+<div>
+  Here, I'm using a component inside my MarkDown file:{" "}
+  {<Button text={"Click me"} />}
+</div>
+
+```
 import styles from "@/styles/YouTube.module.css";
 
 export default function YouTube({ id }: { id: string }) {
@@ -77,8 +88,3 @@ export default function YouTube({ id }: { id: string }) {
   );
 }
 ```
-
-<div>
-  Here, I'm using a component inside my MarkDown file:{" "}
-  {<Button text={"Click me"} />}
-</div>

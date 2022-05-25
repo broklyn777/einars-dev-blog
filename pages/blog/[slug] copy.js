@@ -4,22 +4,21 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import SyntaxHighlighter from 'react-syntax-highlighter'
-
 import { Nav, Button } from '../../components'
+import PageTitle from '../../posts-old/PageTitle'
+import SectionContainer from '../../components/SectionContainer'
 
 const components = { Nav, Button, SyntaxHighlighter }
 
 const PostPage = ({ frontMatter: { title, date }, mdxSource }) => {
   return (
-    <div className="mt-4">
+    <SectionContainer>
 
-
-      <div className="prose">
-        <h1>{title}</h1>
-
+      <div className="mt-4 ">
+        <PageTitle>{title}</PageTitle>
         <MDXRemote {...mdxSource} components={components} />
       </div>
-    </div>
+    </SectionContainer>
   )
 }
 
