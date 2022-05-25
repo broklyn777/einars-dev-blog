@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Nav = () => {
   return (
-    <nav className=" flex flex1  border-b flex-wrap justify-between cursor-pointer p-3 py-8 space-x-5 ">
+    <nav className=" flex flex1 top-0 z-50 border-b flex-wrap justify-between cursor-pointer p-3 py-8 space-x-5 ">
       
       <Link href="/" passHref>
         <h2 className="text-3xl cursor-pointer">media3D</h2>
